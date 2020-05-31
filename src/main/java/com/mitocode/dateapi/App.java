@@ -67,7 +67,7 @@ public class App {
 			nacimiento.set(1991, 0, 21);
 			actual.set(2017, 2, 04);
 
-			int anios = 0;
+			int anios = 0;//
 
 			while (nacimiento.before(actual)) {
 				nacimiento.add(Calendar.YEAR, 1);
